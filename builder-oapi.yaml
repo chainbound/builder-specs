@@ -110,7 +110,7 @@ components:
     Deneb.SignedBuilderBid:
       $ref: "./examples/deneb/signed_builder_bid.json"
     Deneb.SignedBuilderBidWithProof:
-      $ref: "./examples/deneb/signed_builder_bid_with_proof.json"
+      $ref: "./examples/deneb/signed_builder_bid_with_proofs.json"
     Deneb.InclusionConstraint:
       $ref: "./examples/deneb/inclusion_constraint.json"
     Deneb.BundleConstraint:
