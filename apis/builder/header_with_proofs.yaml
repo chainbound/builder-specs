@@ -49,7 +49,11 @@ get:
                 $ref: "../../builder-oapi.yaml#/components/schemas/Deneb.SignedBuilderBidWithProofs"
           examples:
             deneb:
+<<<<<<< HEAD
               $ref: "../../builder-oapi.yaml#/components/examples/Deneb.SignedBuilderBidWithProofs"
+=======
+              $ref: "../../builder-oapi.yaml#/components/examples/Deneb.SignedBuilderBidWithProof"
+>>>>>>> 3e39aeebed3292c803cebacc0c529e8c52533d44
     "204":
       description: No header is available.
     "400":
