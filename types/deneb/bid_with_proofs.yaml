@@ -2,6 +2,9 @@ Deneb:
   ConstraintProofs:
       type: object
       properties:
+        type:
+          type: integer
+          description: Type of the constraint.
         transaction_hashes:
           type: array
           items:
@@ -41,7 +44,9 @@ Deneb:
             maxItems: 4096
             description: "the `KZGCommitment`s for the associated blobs for this `header`"
           constraint_proofs:
-            $ref: "#/Deneb/ConstraintProofs"
+            type: array
+            items:
+              $ref: "#/Deneb/ConstraintProofs"
       - $ref: '../bellatrix/bid.yaml#/Bellatrix/BuilderBidCommon'
 
   SignedBuilderBidWithProofs:
