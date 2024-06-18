@@ -17,11 +17,9 @@ Deneb:
         merkle_hashes:
           type: array
           items:
-            type: array
-            items:
-              type: string
-            description: List of merkle hashes.
-          description: List of lists containing merkle hashes.
+            type: string
+            description: Bytes32
+          description: List of Merkle hashes.
       description: |
         The ConstraintProofs object contains proof data including transaction hashes,
         generalized indexes, and merkle hashes for inclusion proof in the Merkle tree.

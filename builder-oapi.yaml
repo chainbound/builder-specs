@@ -78,7 +78,7 @@ components:
     Deneb.SignedBuilderBid:
       $ref: "./types/deneb/bid.yaml#/Deneb/SignedBuilderBid"
     Deneb.SignedBuilderBidWithProofs:
-      $ref: "./types/deneb/bid_proof.yaml#/Deneb/SignedBuilderBidWithProofs"
+      $ref: "./types/deneb/bid_with_proofs.yaml#/Deneb/SignedBuilderBidWithProofs"
     Deneb.ExecutionPayloadAndBlobsBundle:
       $ref: "./types/deneb/execution_payload_and_blobs_bundle.yaml#/Deneb/ExecutionPayloadAndBlobsBundle"
     Deneb.SignedConstraints:
